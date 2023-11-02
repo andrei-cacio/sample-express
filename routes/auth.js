@@ -1,6 +1,6 @@
 const express = require("express");
 const jwtMiddleware = require("../jwt.middleware").default;
-const auth = require("../auth");
+const auth = require("../core/auth");
 
 const router = express.Router();
 

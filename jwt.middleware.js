@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const privateKey = require("./auth").privateKey;
+const privateKey = require("./core/auth").privateKey;
 const UnauthorizedError = require("./errors/unauthorized.error").default;
 
 function jwtMiddleware(req, res, next) {
